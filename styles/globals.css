@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 @layer components {
   .link{
     @apply hover:underline cursor-pointer
